@@ -13,7 +13,7 @@ with_extra_keys=${1:-n}
 
 host=localhost
 port=10022
-known_hosts=key/known_horsts
+known_hosts=key/known_hosts
 key=key/dracut-ssh-travis-ci-insecure-ed25519
 
 ssh_flags=(
